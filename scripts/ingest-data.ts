@@ -1,5 +1,5 @@
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
-import { OpenAIEmbeddings } from 'langchain/embeddings/openai';
+import { OpenAIEmbeddings } from '@/vendor/langchain/embeddings/openai';
 import { PineconeStore } from 'langchain/vectorstores/pinecone';
 import { pinecone } from '@/utils/pinecone-client';
 import { PDFLoader } from 'langchain/document_loaders/fs/pdf';
