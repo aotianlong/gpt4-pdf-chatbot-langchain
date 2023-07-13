@@ -21,7 +21,11 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "openai": ["./vendor/openai"],
+      "openai/*": ["./vendor/openai/*"],
+      "langchain": ["./vendor/langchain"],
+      "langchain/*": ["./vendor/langchain/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
